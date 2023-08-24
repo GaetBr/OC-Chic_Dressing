@@ -14,6 +14,40 @@ Text Domain:	 chicdressing
     Add your custom styles here
 */
 
+*** Déclaration des fonts ***/
+
+/* Playfair Display */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./fonts/Playfair_Display/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Open Sans */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Kalam */
+@font-face {
+    font-family: 'Kalam';
+    src: url('./fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Rokkitt */
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('./fonts/Rokkitt/Rokkitt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
     color: #a5a5a5;
