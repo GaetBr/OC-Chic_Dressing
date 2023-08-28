@@ -14,7 +14,7 @@ Text Domain:	 chicdressing
     Add your custom styles here
 */
 
-*** Déclaration des fonts ***/
+/*** Déclaration des fonts ***/
 
 /* Playfair Display */
 @font-face {
@@ -22,6 +22,7 @@ Text Domain:	 chicdressing
     src: url('./fonts/Playfair_Display/PlayfairDisplay-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 /* Open Sans */
@@ -30,6 +31,7 @@ Text Domain:	 chicdressing
     src: url('./fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 /* Kalam */
@@ -38,6 +40,7 @@ Text Domain:	 chicdressing
     src: url('./fonts/Kalam/Kalam-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 /* Rokkitt */
@@ -46,6 +49,11 @@ Text Domain:	 chicdressing
     src: url('./fonts/Rokkitt/Rokkitt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+h2 span {
+    display: none;
 }
 
 
