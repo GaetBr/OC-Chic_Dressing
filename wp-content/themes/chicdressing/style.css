@@ -56,9 +56,8 @@ h2 span {
     display: none;
 }
 
-
 body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
-    color: #a5a5a5;
+    color: #333;
     font-size: 12px;
 }
 
@@ -105,4 +104,46 @@ body .header-logo a{
 #chic-products ul.products li.product{
     background: #f6f6f6;
     padding-bottom: 20px;
+}
+
+/* Modification CSS contraste */
+
+/* Cookie */
+.seopress-user-consent a {
+    color: #664B29;
+}
+
+.seopress-user-consent {
+    font-weight: bold;
+}
+
+/* Menu */
+
+#main-nav a:hover,#main-nav i:hover,#main-nav li.current-menu-item>a,#main-nav li.current-menu-ancestor>a,#main-nav .sub-menu li.current-menu-item>a,#main-nav .sub-menu li.current-menu-ancestor>a {
+    color: #946D2E !important;
+}
+
+/* Ajouter au panier */
+.woocommerce .star-rating:before,.woocommerce .star-rating span:before,.woocommerce .page-content ul.products li.product .button,.page-content .woocommerce ul.products li.product .button,.page-content .woocommerce-MyAccount-navigation-link.is-active a,.page-content .woocommerce-MyAccount-navigation-link a:hover {
+    color: #906A2C !important;
+}
+
+/* post categorie */
+.post-categories a, .post-categories, .page-content .ashe-widget.widget_text a {
+    color: #946D2E !important;
+}
+
+/* date blog */
+.page-content .post-date,.page-content .post-comments,.page-content .post-author,.page-content [data-layout*=list] .post-author a,.page-content .related-post-date,.page-content .comment-meta a,.page-content .author-share a,.page-content .post-tags a,.page-content .tagcloud a,.widget_categories li,.widget_archive li,.ahse-subscribe-box p,.rpwwt-post-author,.rpwwt-post-categories,.rpwwt-post-date,.rpwwt-post-comments-number {
+    color: #757575 !important;
+}
+
+/* lire plus */
+.read-more a {
+    color: #946D2E !important;
+}
+
+/* laisser un commentaire */
+.logged-in-as a, .post-categories, .page-content .ashe-widget.widget_text a {
+    color: #946D2E !important;
 }
